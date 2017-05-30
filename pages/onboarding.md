@@ -30,7 +30,7 @@ Office 365 will take some time to provision add-ins to users. This means that ad
 2. Under `organization` open `add-ins`
 3. Click `+` icon and choose either Add from url or Add from file.
     1. In case of url copy following url: [Manifest Url]({{"/manifest/OutlookAddIn.xml" | relative_url }})
-    2. In case of file, upload the following file: [Manifest File]({{""/manifest/OutlookAddIn.xml" | relative_url }})
+    2. In case of file, upload the following file: [Manifest File]({{"/manifest/OutlookAddIn.xml" | relative_url }})
 4. Double click on Matter Center 365 on the add-in list.
     1. Check `Make this add-in available to users in your organizationIf `
     2. Select `Optional, enabled by default`
