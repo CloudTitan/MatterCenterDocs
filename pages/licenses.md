@@ -15,7 +15,7 @@ In order to assign licenses to Office 365 users follow the following steps:
 
 1. Go to  [Matter Center 365](https://app.mattercenter365.com).
 2. Login with user that was registered as admin by reseler.
-3. Open settings in top right menu section of the page.
+3. Open settings in top right menu section of the page, and click on `Licenses` link.
 
 ![]({{"/images/screenshots/MCTopBar.PNG" | relative_url }})
 
