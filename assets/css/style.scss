@@ -1,0 +1,48 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.matter-center-header {
+  background-color: #1074c3;
+}
+
+
+.matter-center-title {
+  display: inline;
+}
+
+.title-text{
+  padding-left: 37%;
+  font-size: 33px;
+  color: white;
+}
+
+.matter-center-logo {
+  display: inline;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  left: 0px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+.sidebar-ul {
+  list-style: none;
+}
+
+.sidebar-li {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.sidebar-li > a:hover {
+    color: #0070a7;
+}
+.a:active {
+  color: #fff;
+background-color: #007bb8;
+}

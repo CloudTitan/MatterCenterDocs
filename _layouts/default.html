@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="sidebar">
+        <ul class="sidebar-ul">
+          <li class="sidebar-li"><a href={{"/pages/onboarding.html" | relative_url }}> Onboarding</a></li>
+          <li class="sidebar-li"><a href={{"/pages/licenses.html" | relative_url }}> Licenses</a></li>
+        </ul>
+      </div>
+
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
