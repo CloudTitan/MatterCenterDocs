@@ -30,7 +30,8 @@ Office 365 will take some time to provision add-ins to users. This means that ad
 2. Under `organization` open `add-ins`
 3. Click `+` icon and choose either Add from url or Add from file.
     1. In case of url copy following url: [Manifest Url]({{"/manifest/OutlookAddIn.xml" | relative_url }})
-    2. In case of file, upload the following file: [Manifest File]({{"/manifest/OutlookAddIn.xml" | relative_url }})
+    2. In case of file, upload the following file: <a href="{{"/manifest/OutlookAddIn.xml" | relative_url }}" download> Manifest File
+
 4. Double click on Matter Center 365 on the add-in list.
     1. Check `Make this add-in available to users in your organizationIf `
     2. Select `Optional, enabled by default`
@@ -40,8 +41,10 @@ Office 365 will take some time to provision add-ins to users. This means that ad
 
 1. Open Office 365 Admin panel. Expand Settings menu and click on `Services & add-ins` link.
 2. Click `+ Upload Add-in`
-    1. In case of url copy following url: [Manifest Url]({{"/manifest/OutlookAddIn.xml" | relative_url }})
-    2. In case of file, upload the following file: [Manifest File]({{"/manifest/OutlookAddIn.xml" | relative_url }})
+    1. In case of url copy following url: [Manifest Url]({{"/manifest/OfficeAddIn.xml" | relative_url }})
+    2. In case of file, upload the following file: <a href="{{"/manifest/OfficeAddIn.xml" | relative_url }}" download> Manifest File
+
+
 3. Side menu should open with add-in configuration:
     1. Set status to On
     2. Define who can access the addin. Under Who has access? either select Everyone or define groups for whom do you wish to enable the Office add-in.
